@@ -13,8 +13,7 @@
       <h2>Q Coast Homes Brochures List</h2>
         <input class = "form-control" id = "demo" type = "text" placeholder = "Search price, brochure # or suburb/package here">
         </input>
-        <tbody id = "test">
-         <table class = "table table-bordered table-striped">
+         <table id="test" class = "table table-bordered table-striped">
             <tr bgcolor="#9acd32">
             <th>Package</th>
             <th>Suburb</th>
@@ -30,7 +29,6 @@
         </tr>
     </xsl:for-each>
   </table>
-</tbody>
 </div>
 <script src="search.js" type="text/javascript"></script>
   </body>
