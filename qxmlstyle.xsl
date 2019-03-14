@@ -5,7 +5,6 @@
       <head>
         <title>Q Coast Homes Brochure List</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="search.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       </link>
       </head>
@@ -33,6 +32,16 @@
   </table>
 </tbody>
 </div>
+<script>         
+            $(document).ready(function(){
+            $("#demo").on("keyup", function() {
+               var value = $(this).val().toLowerCase();
+               $("#test tr").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+               });
+            });
+         });
+       </script>
   </body>
   </html>
 </xsl:template>
