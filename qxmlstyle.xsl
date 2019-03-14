@@ -5,6 +5,7 @@
       <head>
         <title>Q Coast Homes Brochure List</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="search.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       </link>
       </head>
@@ -32,7 +33,6 @@
   </table>
 </tbody>
 </div>
-<script src="search.js" type="text/javascript"></script>
   </body>
   </html>
 </xsl:template>
