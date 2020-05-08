@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="http://qcoast.geosite.com.au/staging/packages/qcoast/qcoast_xmlfeed.xml">
+<xsl:template match="/propertyList">
   <html>
       <head>
         <title>Q Coast Homes Brochure List</title>
