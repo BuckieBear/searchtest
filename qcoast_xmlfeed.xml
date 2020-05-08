@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="qxmlstyle.xsl"?>
 <!DOCTYPE propertyList SYSTEM "http://reaxml.realestate.com.au/propertyList.dtd">
 <propertyList date="2020-05-08-12:42:02" username="xmluser" password="xmlpassword">
 	<!-- Current listing -->
@@ -22578,3 +22577,4 @@
 		<uniqueID>qcoast_1638</uniqueID>
 	</residential>
 </propertyList>
+<?xml-stylesheet type=text/xsl href=qxmlstyle.xsl?>
